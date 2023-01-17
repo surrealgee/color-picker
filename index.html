@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Picker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="header">
+                <div class="picker-container">
+                    <input type="color" name="color" id="color" class="color-picker">
+                </div>
+                <select name="mode" id="mode" class="select-menu">
+                    <option value="monochrome">Monochrome</option>
+                    <option value="mono-dark">Monochrome-dark</option>
+                    <option value="mono-light">Monochrome-light</option>
+                    <option value="analogic">Analogic</option>
+                    <option value="complement">Complement</option>
+                    <option value="analogic-complement">Analogic-complement</option>
+                    <option value="triad">Triad</option>
+                </select>
+                <button class="btn" id="get-scheme-btn">Get color scheme</button>
+            </div>
+            <div class="main">
+                <div class="color-box color1"></div>
+                <div class="color-box color2"></div>
+                <div class="color-box color3"></div>
+                <div class="color-box color4"></div>
+                <div class="color-box color5"></div>
+            </div>
+            <div class="footer">
+                <p class="color-code">placeholder</p>
+                <p class="color-code">placeholder</p>
+                <p class="color-code">placeholder</p>
+                <p class="color-code">placeholder</p>
+                <p class="color-code">placeholder</p>
+            </div>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
